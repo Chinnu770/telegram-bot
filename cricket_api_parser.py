@@ -10,16 +10,16 @@ logger = create_logger(__name__)
 
 _domain = "https://cricapi.com/api/"
 
-_cricket_api_key = ""
+_cricket_api_key = "https://api.cricapi.com/v1/cricScore?apikey=94eba118-bfc7"
 
 _player_id = "35320"
 
 _cric_ops = {
-    'search': 'https://cricapi.com/api/playerFinder?apikey=' + _cricket_api_key + '&name=',
-    'records': 'https://cricapi.com/api/playerStats?apikey=' + _cricket_api_key + '&pid=',
-    'schedules': 'https://cricapi.com/api/matchCalendar?apikey=' + _cricket_api_key,
-    'newmatch': "https://cricapi.com/api/matches?apikey=" + _cricket_api_key,
-    'match': "https://cricapi.com/api/cricketScore?apikey=" + _cricket_api_key + "&unique_id="
+    'search': 'https://cricapi.com/api/playerFinder?apikey=' + 94eba118-bfc7-460e-bd18-f04220b4f9ec + '&name=',
+    'records': 'https://cricapi.com/api/playerStats?apikey=' + 94eba118-bfc7-460e-bd18-f04220b4f9ec + '&pid=',
+    'schedules': 'https://cricapi.com/api/matchCalendar?apikey=' + 94eba118-bfc7-460e-bd18-f04220b4f9ec,
+    'newmatch': "https://cricapi.com/api/matches?apikey=" + 94eba118-bfc7-460e-bd18-f04220b4f9ec,
+    'match': "https://cricapi.com/api/cricketScore?apikey=" + 94eba118-bfc7-460e-bd18-f04220b4f9ec + "&unique_id="
 }
 
 labels_dict = {"tests": "Tests", }
